@@ -22,13 +22,19 @@ a {
 
 .swiper-button-prev,
 .swiper-button-next {
-  transform: scale(0.7);
-  top: 40% !important;
+  transform: scale(1);
+  /* top: 110% !important; */
 }
 
 .swiper-button-prev {
   left: 0 !important;
+  color: #ffffff;
 }
 .swiper-button-next {
   right: 0 !important;
+  color: #ffffff;
+}
+
+.swiper {
+  overflow-x: visible;
 }
