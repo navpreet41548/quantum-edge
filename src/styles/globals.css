@@ -23,16 +23,14 @@ a {
 .swiper-button-prev,
 .swiper-button-next {
   transform: scale(1);
-  /* top: 110% !important; */
+  top: 40% !important;
 }
 
 .swiper-button-prev {
   left: 0 !important;
-  color: #ffffff;
 }
 .swiper-button-next {
   right: 0 !important;
-  color: #ffffff;
 }
 
 .swiper {
