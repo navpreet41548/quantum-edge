@@ -1,0 +1,309 @@
+.header {
+  position: relative;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerContent {
+  position: relative;
+  z-index: 3;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.mainHeading {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.subHeading {
+  font-size: 18px;
+  color: #c5c5c5;
+}
+
+.button {
+  background-color: #3677ea;
+  color: white;
+  padding: 14px 20px;
+  display: inline-block;
+  border-radius: 3px;
+  border-radius: 5px;
+  margin-top: 30px;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  background-color: #316bce;
+}
+
+.imageOverlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  backdrop-filter: blur(3px);
+}
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.detailWrapper {
+  background-color: white;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.detailContainer {
+  width: 80%;
+  max-width: 1540px;
+  margin: auto;
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: -200px;
+  margin-bottom: 50px;
+  z-index: 5;
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.line {
+  width: 90%;
+  height: 4px;
+  background-color: #1f1f1f;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.mainTagContainer {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.mainTag {
+  margin-right: 20px;
+  color: #898989;
+  font-weight: 600;
+}
+
+.mainDetailHeading {
+  color: #1f1f1f;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.mainDetailPara {
+  font-size: 20px;
+  color: #1f1f1f;
+  margin-top: 40px;
+}
+
+.detailImage {
+  width: 70%;
+  height: auto;
+}
+
+.detailSubHeading {
+  color: #1f1f1f;
+  font-size: 20px;
+}
+
+.detailHeading {
+  font-size: 50px;
+  font-weight: 400;
+  color: #1f1f1f;
+}
+
+.swiperContainer {
+  padding: 10px 5% !important;
+}
+.card:hover .cardText {
+  text-decoration: underline;
+}
+
+.cardImage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.tagContainer {
+  display: flex;
+  padding: 10px 0;
+}
+
+.tag {
+  margin-right: 15px;
+  font-weight: 700;
+  color: #898989;
+  font-size: 17px;
+}
+
+.cardText {
+  font-size: 23px;
+  color: #1f1f1f;
+  font-weight: 600;
+}
+
+.cardButton {
+  border: 1px solid #1f1f1f;
+  color: #1f1f1f;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 30px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 18px;
+  position: relative;
+}
+
+.cardButton i {
+  position: absolute;
+  right: 20px;
+  transition: all 0.3s ease;
+}
+
+.cardButton:hover i {
+  right: 15px;
+}
+
+@media screen and (max-width: 1550px) {
+  .mainTagContainer {
+    padding-bottom: 15px;
+  }
+  .detailContainer {
+    padding: 30px;
+  }
+  .mainDetailHeading {
+    font-size: 30px;
+  }
+  .mainDetailPara {
+    font-size: 18px;
+    margin-top: 30px;
+  }
+  .detailSubHeading {
+    font-size: 18px;
+  }
+  .detailImage {
+    width: 80%;
+  }
+  .mainHeading {
+    font-size: 50px;
+  }
+  .cardText {
+    font-size: 19px;
+  }
+
+  .tagContainer {
+    padding: 5px 0;
+  }
+  .tag {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .detailContainer {
+    width: 90%;
+  }
+  .cardText {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .tag {
+    font-size: 13px;
+  }
+  .cardButton {
+    font-size: 15px;
+  }
+  .mainHeading {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .detailContainerLeft {
+    width: 50%;
+  }
+  .detailContainerRight {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .detailContainer {
+    width: 95%;
+    padding: 20px;
+  }
+  .mainDetailHeading {
+    font-size: 25px;
+  }
+  .mainDetailPara {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  .mainTag {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .imageOverlay {
+    backdrop-filter: blur(0);
+  }
+  .detailContainer {
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .detailContainer {
+    padding: 10px;
+    padding-top: 50px;
+  }
+  .mainTagContainer {
+    padding-bottom: 10px;
+  }
+  .mainDetailHeading {
+    font-size: 20px;
+  }
+  .mainTag {
+    font-size: 14px;
+  }
+  .header {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .detailContainer {
+    width: 100%;
+    padding: 0 3%;
+    padding-top: 30px;
+  }
+  .detailHeading {
+    font-size: 18px;
+  }
+  .detailSubHeading {
+    font-size: 12px;
+  }
+  .mainDetailHeading {
+    font-weight: 500;
+  }
+}
