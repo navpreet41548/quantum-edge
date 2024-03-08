@@ -56,6 +56,26 @@ const IndustrySection = () => {
           className={`${"mySwiper"} ${styles.swiperContainer}`}
         >
           <SwiperSlide>
+            <Link
+              href={"/industries/renewable-energy"}
+              className={`${styles.card}`}
+            >
+              <Image
+                className={styles.cardImage}
+                src={"/images/industries/renewable.jpg"}
+                alt="Card Image"
+                width={400}
+                height={350}
+              />
+              <div className={styles.cardText}>
+                <h3 className={styles.cardHeading}>RENEWABLE ENERGY</h3>
+                <div className={styles.cardButton}>
+                  <i className="bx bx-right-arrow-alt"></i>
+                </div>
+              </div>
+            </Link>
+          </SwiperSlide>
+          <SwiperSlide>
             <Link href={"/industries/aerospace"} className={`${styles.card}`}>
               <Image
                 className={styles.cardImage}
@@ -89,26 +109,7 @@ const IndustrySection = () => {
               </div>
             </Link>
           </SwiperSlide>
-          <SwiperSlide>
-            <Link
-              href={"/industries/renewable-energy"}
-              className={`${styles.card}`}
-            >
-              <Image
-                className={styles.cardImage}
-                src={"/images/industries/renewable.jpg"}
-                alt="Card Image"
-                width={400}
-                height={350}
-              />
-              <div className={styles.cardText}>
-                <h3 className={styles.cardHeading}>RENEWABLE ENERGY</h3>
-                <div className={styles.cardButton}>
-                  <i className="bx bx-right-arrow-alt"></i>
-                </div>
-              </div>
-            </Link>
-          </SwiperSlide>
+
           {/* <SwiperSlide>
             <Link
               href={"/industries/manufacturing"}

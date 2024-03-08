@@ -20,13 +20,13 @@ const IndustryDetail = () => {
       headingPart1: "AEROSPACE CAPABILITIES",
       headingPart2: "",
       para1:
-        "We are in the development of high-tech drones to serve the Aerospace and Defense industries. We plan on tackling our client's problems through cutting-edge solutions that are custom tailored to their needs. Our innovative approach allows us to help our clients reliably achieve their goals. ",
+        "We are in the development of high-tech drones to serve the Aerospace industry. We plan on tackling our client's problems through cutting-edge solutions that are custom tailored to their needs. Our innovative approach allows us to help our clients reliably achieve their goals.",
       para2:
-        " As a MADE in USA company with extensive industry contacts, we are committed to serving the United States.",
+        "Quantum Edge, an American company with MADE in USA products, is committed to assisting United States' Aerospace initiative.",
       para3:
-        "With a dedication to manufacturing excellence and domestic production, we aim to contribute to national security while supporting the growth of the defense industrial base. ",
+        "With a dedication to manufacturing excellence and domestic production, we aim to contribute to national security while supporting the growth of the aerospace industrial base.",
       para4:
-        "Through strategic partnerships and advanced technologies, Quantum Edge plans on contributing to the defense capabilities of the United States. ",
+        "Through strategic partnerships and advanced technologies, Quantum Edge plans on contributing to the aerospace capabilities of the United States.",
       image1: "/images/industries/aerospace.jpg",
       image2: "/images/industries/defense.jpg",
     },
@@ -37,12 +37,13 @@ const IndustryDetail = () => {
       headingPart1: "DEFENSE CAPABILITIES",
       headingPart2: "",
       para1:
-        "Quantum Edge is expanding its capabilities in the Defense industry, focusing on creating a cutting-edge machine shop that can manufacture a range of defense products in the industry.",
+        "Quantum Edge is expanding its capabilities in the Defense industry, focusing on creating a cutting-edge machine shop that can manufacture a range of defense products in the industry. As a MADE in USA company with Defense industry contacts, we are committed to serving the United States' national defense initiative. ",
       para2:
-        "As a MADE in USA company with Defense industry contacts, we are committed to serving the United States' national defense initiative. Our future endeavors are aimed at developing components and parts in the defense sector. ",
+        "Our future endeavors are aimed at developing components and parts in the defense sector. ",
       para3:
-        "With our commitment to creating jobs in the USA and our focus on innovation in manufacturing and engineering, we aim to contribute to national security through our work in the Defense sector. Through working with industry leading defense firms and through our advanced technologies and innovative offerings, Quantum Edge plans on contributing to the defense capabilities of the United States, supporting national security efforts.",
-      para4: "",
+        "With our commitment to creating jobs in the USA and our focus on innovation in manufacturing and engineering, we aim to contribute to national security through our work in the Defense sector.",
+      para4:
+        "Through working with industry leading defense firms and through our advanced technologies and innovative offerings, Quantum Edge plans on contributing to the defense capabilities of the United States, supporting national security efforts.",
       image1: "/images/industries/defense1.jpg",
       image2: "/images/industries/defense2.jpg",
     },
