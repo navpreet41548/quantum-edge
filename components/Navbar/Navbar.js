@@ -98,9 +98,9 @@ const Navbar = () => {
             <Link
               onClick={removeClass}
               className={styles.navLink}
-              href={"/#leadership"}
+              href={"/#principal"}
             >
-              LEADERSHIP
+              PRINCIPAL
             </Link>
           </li>
           <li>

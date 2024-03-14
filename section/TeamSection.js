@@ -11,9 +11,9 @@ import { motion } from "framer-motion";
 
 const TeamSection = () => {
   return (
-    <div id="leadership" className={styles.containerWrapper}>
+    <div id="principal" className={styles.containerWrapper}>
       <div className={styles.container}>
-        <h3 className={styles.subHeading}>LEADERSHIP</h3>
+        <h3 className={styles.subHeading}>PRINCIPAL</h3>
         {/* <h2 className={styles.heading}>
           FULLY CERTIFIED & <br></br> AUTHORIZED
         </h2> */}
@@ -164,7 +164,7 @@ const TeamSection = () => {
             </motion.div>
             <div className={styles.cardOverlay}></div>
           </div>
-          <div className={`${styles.card}`}>
+          {/* <div className={`${styles.card}`}>
             <Image
               className={styles.cardImage}
               src={"/images/team/Franklin Cerball.jpg"}
@@ -277,7 +277,7 @@ const TeamSection = () => {
               <h3 className={styles.cardHeading}>Mariel Vaca</h3>
             </motion.div>
             <div className={styles.cardOverlay}></div>
-          </div>
+          </div> */}
         </div>
 
         <div className={styles.side}>
