@@ -135,8 +135,8 @@ const TeamSection = () => {
             </div>
           </SwiperSlide>
         </Swiper> */}
-        <div className={`${styles.swiperContainer}`}>
-          <div className={`${styles.card}`}>
+        {/* <div className={`${styles.swiperContainer}`}> */}
+        {/* <div className={`${styles.card}`}>
             <Image
               className={styles.cardImage}
               src={"/images/team/Mussa Qader.jpg"}
@@ -163,8 +163,8 @@ const TeamSection = () => {
               <h3 className={styles.cardHeading}>Mussa Qader</h3>
             </motion.div>
             <div className={styles.cardOverlay}></div>
-          </div>
-          {/* <div className={`${styles.card}`}>
+          </div> */}
+        {/* <div className={`${styles.card}`}>
             <Image
               className={styles.cardImage}
               src={"/images/team/Franklin Cerball.jpg"}
@@ -278,6 +278,31 @@ const TeamSection = () => {
             </motion.div>
             <div className={styles.cardOverlay}></div>
           </div> */}
+        {/* </div> */}
+
+        <div className={styles.detailContainer}>
+          <div className={styles.detailContainerLeft}>
+            <Image
+              className={styles.aboutImage}
+              src={"/images/team/Mussa Qader.jpg"}
+              alt="About Image"
+              width={1000}
+              height={1000}
+            />
+          </div>
+          <div className={styles.detailContainerRight}>
+            <h2 className={styles.mainHeading}>MUSSA QADER</h2>
+            <h2 className={styles.titleHeading}>CHAIRMAN & FOUNDER</h2>
+            <p className={styles.para}>
+              Mussa is an inventor and innovator that has worked with
+              organizations internationally engineering various advanced
+              technological solutions. Additionally, he is a former McKinsey &
+              Co, Google, and Amazon technology consultant turned businessman
+            </p>
+            <Link href={"/#contact"} className={styles.button}>
+              CONTACT ME
+            </Link>
+          </div>
         </div>
 
         <div className={styles.side}>

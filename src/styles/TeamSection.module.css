@@ -8,12 +8,18 @@
   margin: auto;
   padding: 100px 7%;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .subHeading {
   font-weight: 400;
   font-size: 23px;
   color: white;
+
+  width: 100%;
+  text-align: left;
 }
 
 .heading {
@@ -142,6 +148,54 @@
   color: white;
 }
 
+.detailContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1400px;
+  margin-top: 70px;
+}
+
+.detailContainerLeft {
+  width: 50%;
+}
+
+.aboutImage {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.detailContainerRight {
+  width: 50%;
+  color: white;
+}
+
+.mainHeading {
+  font-size: 35px;
+}
+
+.titleHeading {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.para {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.button {
+  background-color: white;
+  color: #1f1f1f;
+  padding: 13px;
+  display: inline-block;
+  margin-top: 70px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
 @media screen and (max-width: 1550px) {
   .container {
     padding: 50px 7%;
@@ -154,6 +208,30 @@
   }
   .side {
     left: 30px;
+  }
+  .detailContainer {
+    max-width: 1000px;
+  }
+  .aboutImage {
+    width: 300px;
+  }
+  .mainHeading {
+    font-size: 25px;
+  }
+  .titleHeading {
+    font-size: 14px;
+  }
+  .para {
+    font-size: 16px;
+  }
+  .detailContainer {
+    justify-content: space-between;
+  }
+  .detailContainerLeft {
+    width: 30%;
+  }
+  .detailContainerRight {
+    width: 60%;
   }
 }
 
@@ -182,6 +260,23 @@
   }
   .subHeading {
     font-size: 20px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .detailContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .detailContainerLeft {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .detailContainerRight {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
   }
 }
 @media screen and (max-width: 950px) {
@@ -233,5 +328,23 @@
   }
   .heading {
     font-size: 25px;
+  }
+  .aboutImage {
+    width: 70%;
+  }
+  .detailContainerRight {
+    margin-top: 30px;
+  }
+  .mainHeading {
+    font-size: 18px;
+  }
+  .titleHeading {
+    font-size: 12px;
+  }
+  .para {
+    font-size: 14px;
+  }
+  .button {
+    margin-top: 50px;
   }
 }
