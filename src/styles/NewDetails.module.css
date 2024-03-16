@@ -184,6 +184,10 @@
   right: 15px;
 }
 
+/* .mainTag:nth-child(1) {
+  color: rgb(29, 29, 29);
+} */
+
 @media screen and (max-width: 1550px) {
   .mainTagContainer {
     padding-bottom: 15px;

@@ -20,13 +20,13 @@ const IndustryDetail = () => {
       headingPart1: "AEROSPACE CAPABILITIES",
       headingPart2: "",
       para1:
-        "We are in the development of high-tech drones to serve the Aerospace industry. We plan on tackling our client's problems through cutting-edge solutions that are custom tailored to their needs. Our innovative approach allows us to help our clients reliably achieve their goals.",
+        "Quantum Edge, an American company, is at the forefront of developing advanced drone technology to meet the demands of the Aerospace industry. With a focus on innovation, we meticulously design our drones to address specific challenges faced by our clients. Our cutting-edge solutions are meticulously crafted to be versatile and adaptable, ensuring they meet the unique requirements of each project.",
       para2:
-        "Quantum Edge, an American company with MADE in USA products, is committed to assisting United States' Aerospace initiative.",
+        "As a proud supporter of US Aerospace initiatives, our commitment to manufacturing our products in the USA reflects our dedication to quality, reliability, and national innovation.",
       para3:
-        "With a dedication to manufacturing excellence and domestic production, we aim to contribute to national security while supporting the growth of the aerospace industrial base.",
+        "Quantum Edge is thrilled to be part of the movement to bring jobs back to the United States. By manufacturing our products domestically, we are not only ensuring high-quality standards but also contributing to job creation and economic growth within our communities. We take pride in our role in revitalizing American manufacturing and are committed to providing opportunities for skilled workers to thrive in the aerospace industry.",
       para4:
-        "Through strategic partnerships and advanced technologies, Quantum Edge plans on contributing to the aerospace capabilities of the United States.",
+        "Bringing jobs back to the United States allows us to build a stronger, more resilient workforce while reinforcing our commitment to innovation and excellence.",
       image1: "/images/industries/aerospace.jpg",
       image2: "/images/industries/defense.jpg",
     },
@@ -37,13 +37,13 @@ const IndustryDetail = () => {
       headingPart1: "DEFENSE CAPABILITIES",
       headingPart2: "",
       para1:
-        "Quantum Edge is expanding its capabilities in the Defense industry, focusing on creating a cutting-edge machine shop that can manufacture a range of defense products in the industry. As a MADE in USA company with Defense industry contacts, we are committed to serving the United States' national defense initiative. ",
+        "Quantum Edge is rapidly expanding its presence in the Defense industry, establishing a state-of-the-art machine shop dedicated to manufacturing a wide range of defense products. As a proud MADE in USA company with established contacts in the Defense sector, we are deeply committed to bolstering the United States' national defense initiative.",
       para2:
-        "Our future endeavors are aimed at developing components and parts in the defense sector. ",
+        "Our strategic focus is on becoming a cornerstone in the manufacturing and machining of defense industry-related parts and components, solidifying our position as a trusted partner in safeguarding national security.",
       para3:
-        "With our commitment to creating jobs in the USA and our focus on innovation in manufacturing and engineering, we aim to contribute to national security through our work in the Defense sector.",
+        "Quantum Edge is dedicated to job creation in the USA and pioneering innovation in manufacturing and engineering to enhance national security through our work in the Defense sector.",
       para4:
-        "Through working with industry leading defense firms and through our advanced technologies and innovative offerings, Quantum Edge plans on contributing to the defense capabilities of the United States, supporting national security efforts.",
+        "Collaborating with industry-leading defense firms and leveraging advanced technologies, we're committed to bolstering the defense capabilities of the United States, all while fostering economic growth and job opportunities domestically.",
       image1: "/images/industries/defense1.jpg",
       image2: "/images/industries/defense2.jpg",
     },

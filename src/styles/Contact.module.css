@@ -11,10 +11,10 @@
 }
 
 .left {
-  width: 50%;
+  width: 30%;
 }
 .right {
-  width: 50%;
+  width: 70%;
 }
 
 .heading {
@@ -60,6 +60,10 @@
   padding: 20px 15px;
   width: 550px;
   border-radius: 5px;
+}
+
+.formHeading {
+  color: #1f1f1f;
 }
 
 .input {
@@ -148,6 +152,9 @@
   .subHeading {
     font-size: 20px;
   }
+  .formHeading {
+    font-size: 17px;
+  }
 }
 
 @media screen and (max-width: 950px) {
@@ -193,5 +200,8 @@
   .input {
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.25);
     padding: 15px 10px;
+  }
+  .formHeading {
+    margin-top: 30px;
   }
 }

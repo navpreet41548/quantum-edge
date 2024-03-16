@@ -18,6 +18,7 @@ const News = () => {
 
   const newsData = [
     {
+      tag: ["MARCH 15, 2024", "MUSSA QADER"],
       slug: "news-1",
       imageSrc: "/images/news/news1.jpg",
       newsTitle:
@@ -35,6 +36,7 @@ The state-of-the-art machine shop at Quantum Edge Technology is capable of produ
 They understand how critical it is to transition to renewable energy sources, and their machine facility is equipped to meet the increasing demand for solar products that are kind to the environment. Quantum Edge's top goal is sustainability, and they employ energy-saving procedures and cut waste in their manufacturing operations. `,
     },
     {
+      tag: ["MARCH 15, 2024", "MUSSA QADER"],
       slug: "news-2",
       imageSrc: "/images/news/news2.jpg",
       newsTitle:
@@ -48,6 +50,7 @@ Quantum Edge is a firm that is pleased to be made in the USA, and as such, they 
 They have commitment to quality and dependability in all facets of business operations. By putting the needs of the client first and pursuing excellence relentlessly, they hopes to revolutionize drone development. Quantum Edge aims to establish itself as a reliable partner in the Aerospace and Defense industries, promoting advancement and safeguarding national security via the provision of exceptional products and unmatched service.`,
     },
     {
+      tag: ["MARCH 15, 2024", "MUSSA QADER"],
       slug: "news-3",
       imageSrc: "/images/news/news4.jpg",
       newsTitle: "US Machine Shop Emerges in the Aerospace Industry",
@@ -60,6 +63,7 @@ Being a MADE in USA business, Quantum Edge is motivated by a feeling of patrioti
 Quantum Edge is poised to leave a lasting impact on the industry, contributing to advancements that will shape the future of manufacturing aerospace components.`,
     },
     {
+      tag: ["MARCH 15, 2024", "MUSSA QADER"],
       slug: "news-4",
       imageSrc: "/images/news/news3a.jpg",
       newsTitle: "Cutting-Edge USA Machine Shop Launches in Defense Sector ",
@@ -187,9 +191,11 @@ Quantum Edge is resolute in its objective to deliver state-of-the-art parts and 
                 />
                 <div className={styles.cardDetail}>
                   <div className={styles.tagContainer}>
-                    <div className={styles.tag}>NEWS</div>
-                    <div className={styles.tag}>DAILY</div>
-                    <div className={styles.tag}>TRENDING</div>
+                    {item.tag.map((tag, i) => (
+                      <div className={styles.tag}>{tag}</div>
+                    ))}
+                    {/* <div className={styles.tag}>DAILY</div>
+                    <div className={styles.tag}>TRENDING</div> */}
                   </div>
                   <h5 className={styles.cardText}>{item.newsTitle}</h5>
                   <Link

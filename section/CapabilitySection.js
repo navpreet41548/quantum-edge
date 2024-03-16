@@ -87,7 +87,7 @@ const CapabilitySection = () => {
               <div className={styles.card}>
                 <Image
                   className={styles.cardImage}
-                  src="/images/manufacturing/machinery.png"
+                  src="/images/manufacturing/machinery2.png"
                   width={240}
                   height={221}
                   alt="MACHINERY"
@@ -132,7 +132,7 @@ const CapabilitySection = () => {
               <div className={`${styles.card} ${styles.cardDesktop}`}>
                 <Image
                   className={styles.cardImage}
-                  src="/images/manufacturing/quality.png"
+                  src="/images/manufacturing/quality2.png"
                   width={240}
                   height={221}
                   alt="QUALITY ASSURANCE"
@@ -179,7 +179,7 @@ const CapabilitySection = () => {
               <div className={`${styles.card} ${styles.cardMobile}`}>
                 <Image
                   className={styles.cardImage}
-                  src="/images/manufacturing/quality.png"
+                  src="/images/manufacturing/quality2.png"
                   width={240}
                   height={221}
                   alt="QUALITY ASSURANCE"
@@ -224,7 +224,7 @@ const CapabilitySection = () => {
               <div className={styles.card}>
                 <Image
                   className={styles.cardImage}
-                  src="/images/manufacturing/rapid.png"
+                  src="/images/manufacturing/rapid2.png"
                   width={240}
                   height={221}
                   alt="RAPID PROTOTYPING"
@@ -348,7 +348,7 @@ const CapabilitySection = () => {
               <div className={`${styles.card} ${styles.cardDesktop}`}>
                 <Image
                   className={styles.cardImage}
-                  src="/images/engineering/research.png"
+                  src="/images/engineering/research2.png"
                   width={240}
                   height={221}
                   alt="QUALITY ASSURANCE"
@@ -395,7 +395,7 @@ const CapabilitySection = () => {
               <div className={`${styles.card} ${styles.cardMobile}`}>
                 <Image
                   className={styles.cardImage}
-                  src="/images/engineering/research.png"
+                  src="/images/engineering/research2.png"
                   width={240}
                   height={221}
                   alt="QUALITY ASSURANCE"

@@ -105,11 +105,12 @@ const ContactSection = () => {
           {/* <h2 className={styles.heading}>
             FULLY CERTIFIED & <br></br> AUTHORIZED
           </h2> */}
-          <h3 className={styles.lightHeading}>MY CONTACT</h3>
+          <h3 className={styles.lightHeading}>MY EMAIL</h3>
           <h3 className={styles.boldHeading}>support@quantumedgeinc.co</h3>
         </div>
         <div className={styles.right}>
           <div className={styles.form}>
+            <h3 className={styles.formHeading}>Fill out the form</h3>
             <input
               onChange={(e) => handleInput(e)}
               className={styles.input}
