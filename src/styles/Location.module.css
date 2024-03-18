@@ -1,0 +1,249 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homeBackground {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.homeBackground video {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  filter: brightness(50%);
+}
+
+.homeContent {
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-align: center;
+}
+
+.mainHeading {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.subHeading {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.homeButton {
+  background-color: white;
+  color: #1f1f1f;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 30px;
+  display: inline-block;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+
+.workContainerWrapper {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.workContainer {
+  width: 100%;
+  max-width: 1940px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0;
+}
+
+.phaseContainer {
+  display: flex;
+  align-items: center;
+  width: 1450px;
+  justify-content: space-between;
+}
+
+.phaseContainer1 {
+  margin-bottom: 100px;
+}
+
+.phaseLeft {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.phaseRight {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.phaseImage {
+  width: 500px;
+  height: auto;
+}
+
+.phaseDetail {
+  width: 500px;
+}
+
+.phaseList:nth-child(1) {
+  border-top: 1px solid #a5a5a5;
+}
+.phaseList {
+  padding: 20px 0;
+  font-size: 22px;
+  color: #1f1f1f;
+  font-weight: 500;
+  border-bottom: 1px solid #a5a5a5;
+}
+
+.workHeading {
+  color: #1f1f1f;
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+
+.exampleContainerWrapper {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.exampleContainer {
+  width: 100%;
+  max-width: 1940px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0;
+  padding-bottom: 100px;
+}
+
+.imageContainer {
+  width: 1450px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1550px) {
+  .mainHeading {
+    font-size: 40px;
+  }
+  .subHeading {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .tagHeading {
+    font-size: 18px;
+  }
+  .workHeading {
+    font-size: 20px;
+  }
+  .phaseContainer {
+    width: 90%;
+  }
+  .phaseContainer1 {
+    margin-bottom: 50px;
+  }
+  .phaseImage {
+    width: 350px;
+  }
+  .phaseList {
+    font-size: 18px;
+    padding: 15px 0;
+  }
+  .imageContainer {
+    width: 90%;
+    justify-content: center;
+  }
+  .exampleImage {
+    width: 300px;
+    height: auto;
+    margin: 0 30px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .exampleImage {
+    width: 200px;
+  }
+  .workHeading {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .phaseContainer1 {
+    flex-direction: column-reverse;
+  }
+  .phaseContainer2 {
+    flex-direction: column;
+  }
+  .phaseContainer1 .phaseLeft {
+    margin-top: 50px;
+  }
+  .phaseContainer2 .phaseRight {
+    margin-top: 50px;
+  }
+  .phaseLeft {
+    width: 100%;
+  }
+  .phaseRight {
+    width: 100%;
+  }
+  .exampleImage {
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .imageContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .exampleImage {
+    margin: 20px 0;
+    height: 300px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .homeButton {
+    font-size: 15px;
+  }
+  .mainHeading {
+    font-size: 35px;
+  }
+  .phaseImage {
+    width: 100%;
+  }
+  .phaseDetail {
+    width: 100%;
+  }
+  .phaseList {
+    font-size: 16px;
+  }
+  .exampleImage {
+    width: 100%;
+    margin: 10px 0;
+  }
+}

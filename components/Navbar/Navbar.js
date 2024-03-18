@@ -94,6 +94,25 @@ const Navbar = () => {
               CAPABILITIES
             </Link>
           </li>
+          <li className={styles.subLi}>
+            <Link
+              onClick={removeClass}
+              className={styles.navLink}
+              href={"/news"}
+            >
+              LOCATION
+            </Link>
+            <div className={styles.dropdown}>
+              <Link href="/location/howell" className={styles.dropdownLink}>
+                HOWELL
+                <i class="bx bx-chevron-right"></i>
+              </Link>
+              <Link href="/location/boise" className={styles.dropdownLink}>
+                BOISE
+                <i class="bx bx-chevron-right"></i>
+              </Link>
+            </div>
+          </li>
           <li>
             <Link
               onClick={removeClass}
@@ -110,6 +129,24 @@ const Navbar = () => {
               href={"/news"}
             >
               NEWS
+            </Link>
+          </li>
+          <li className={styles.mobileLi}>
+            <Link
+              onClick={removeClass}
+              className={styles.navLink}
+              href={"/location/howell"}
+            >
+              HOWELL
+            </Link>
+          </li>
+          <li className={styles.mobileLi}>
+            <Link
+              onClick={removeClass}
+              className={styles.navLink}
+              href={"/location/boise"}
+            >
+              BOISE
             </Link>
           </li>
         </ul>
