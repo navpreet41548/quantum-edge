@@ -25,7 +25,7 @@ const Boise = () => {
           <h3 className={styles.tagHeading}>BOISE, IDAHO</h3>
           <h1 className={styles.mainHeading}>PROJECT NAME</h1>
           <h4 className={styles.subHeading}>Solar Manufacturing Facility</h4>
-          <Link href={"/"} className={styles.homeButton}>
+          <Link href={"#details"} className={styles.homeButton}>
             VIEW DETAIL
           </Link>
         </div>
@@ -38,7 +38,7 @@ const Boise = () => {
         </div>
       </div>
 
-      <div className={styles.workContainerWrapper}>
+      <div id="details" className={styles.workContainerWrapper}>
         <div className={styles.workContainer}>
           <h2 className={styles.workHeading}>WORK PROGRESS</h2>
           <div className={`${styles.phaseContainer} ${styles.phaseContainer1}`}>
