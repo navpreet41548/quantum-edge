@@ -23,8 +23,10 @@ const Howell = () => {
       <div id="location" className={styles.container}>
         <div className={styles.homeContent}>
           <h3 className={styles.tagHeading}>HOWELL, UT</h3>
-          <h1 className={styles.mainHeading}>MAGNATIX</h1>
-          <h4 className={styles.subHeading}>Solar Manufacturing Facility</h4>
+          <h1 className={styles.mainHeading}>QUANTUM EDGE</h1>
+          <h4 className={styles.subHeading}>
+            Solar Component Manufacturing Facility
+          </h4>
           <Link href={"#details"} className={styles.homeButton}>
             VIEW DETAIL
           </Link>

@@ -294,10 +294,36 @@ const TeamSection = () => {
             <h2 className={styles.mainHeading}>MUSSA QADER</h2>
             <h2 className={styles.titleHeading}>CHAIRMAN & FOUNDER</h2>
             <p className={styles.para}>
-              Mussa is an inventor and innovator that has worked with
-              organizations internationally engineering various advanced
-              technological solutions. Additionally, he is a former McKinsey &
-              Co, Google, and Amazon technology consultant turned businessman
+              Mussa is an accomplished inventor and innovator with extensive
+              international experience in engineering cutting-edge technological
+              solutions. With a deep understanding of the latest industrial
+              technology and a proven track record of building, prototyping, and
+              manufacturing products across diverse industries, Mussa brings a
+              wealth of knowledge and expertise to every project.
+            </p>
+            <p className={styles.para}>
+              As a specialist in the design and manufacturing of advanced drones
+              for mission-specific use-cases, Mussa has consistently delivered
+              innovative solutions that push the boundaries of what is possible.
+              His work has garnered recognition from industry leaders and has
+              positioned him as a go-to expert in the field.
+            </p>
+            <p className={styles.para}>
+              Prior to his current endeavors, Mussa honed his skills as a
+              technology consultant at renowned organizations such as McKinsey &
+              Co, Google, and Amazon. His experience working with these industry
+              giants has provided him with invaluable insights into the
+              ever-evolving landscape of technology and has equipped him with
+              the tools necessary to navigate complex business challenges.
+            </p>
+
+            <p className={styles.para}>
+              With a rare combination o technical prowess, business acumen, and
+              an unwavering commitment to innovation, Mussa is poised to make a
+              significant impact in the wrld of advanced technology. His vision,
+              coupled with his ability to execute, makes him an exceptional
+              asset to any organization seeking to stay at the forefront of
+              their industry.
             </p>
             <Link href={"/#contact"} className={styles.button}>
               CONTACT ME

@@ -27,6 +27,12 @@ const Footer = () => {
             <Link href={"/#capabilities"}>CAPABILITIES</Link>
           </li>
           <li className={styles.footerLi}>
+            <Link href={"/location/howell"}>HOWELL</Link>
+          </li>
+          <li className={styles.footerLi}>
+            <Link href={"/location/boise"}>BOISE</Link>
+          </li>
+          <li className={styles.footerLi}>
             <Link href={"/#principal"}>PRINCIPAL</Link>
           </li>
           <li className={styles.footerLi}>

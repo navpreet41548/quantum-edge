@@ -23,8 +23,10 @@ const Boise = () => {
       <div id="location" className={styles.container}>
         <div className={styles.homeContent}>
           <h3 className={styles.tagHeading}>BOISE, IDAHO</h3>
-          <h1 className={styles.mainHeading}>PROJECT NAME</h1>
-          <h4 className={styles.subHeading}>Solar Manufacturing Facility</h4>
+          <h1 className={styles.mainHeading}>PROJECT X</h1>
+          <h4 className={styles.subHeading}>
+            Aerospace | Defense | Solar Component Manufacturing Facility
+          </h4>
           <Link href={"#details"} className={styles.homeButton}>
             VIEW DETAIL
           </Link>
