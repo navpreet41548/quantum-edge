@@ -26,11 +26,16 @@ const Footer = () => {
           <li className={styles.footerLi}>
             <Link href={"/#capabilities"}>CAPABILITIES</Link>
           </li>
-          <li className={styles.footerLi}>
-            <Link href={"/location/howell"}>HOWELL</Link>
-          </li>
-          <li className={styles.footerLi}>
-            <Link href={"/location/boise"}>BOISE</Link>
+          <li className={`${styles.footerLi} ${styles.footerLiDropdown}`}>
+            <a>LOCATION</a>
+            <ul className={styles.dropdown}>
+              <li className={styles.footerLi}>
+                <Link href={"/location/howell"}>HOWELL</Link>
+              </li>
+              <li className={styles.footerLi}>
+                <Link href={"/location/boise"}>BOISE</Link>
+              </li>
+            </ul>
           </li>
           <li className={styles.footerLi}>
             <Link href={"/#principal"}>PRINCIPAL</Link>

@@ -9,6 +9,8 @@ const Navbar = () => {
   const menuRef = useRef(null);
   const buttonRef = useRef(null);
   const navRef = useRef(null);
+  const locationDropdownRef = useRef(null);
+  const mobileLocationLiIconRef = useRef(null);
   const [isOpen, setIsOpen] = useState(false);
 
   const removeClass = () => {
@@ -23,6 +25,13 @@ const Navbar = () => {
     menuRef.current.classList.toggle(`${styles.navCenterActive}`);
     navRef.current.classList.toggle(`${styles.navActive}`);
     buttonRef.current.classList.toggle(`${styles.navButtonActive}`);
+  };
+
+  const handleMobileLocationLiClick = () => {
+    locationDropdownRef.current.classList.toggle(
+      `${styles.locationDropdownActive}`
+    );
+    mobileLocationLiIconRef.current.classList.toggle(`${styles.navIconActive}`);
   };
 
   // Function to add the "stickyNav" class when scrolling down
@@ -113,6 +122,32 @@ const Navbar = () => {
               </Link>
             </div>
           </li>
+
+          <li
+            onClick={handleMobileLocationLiClick}
+            className={styles.mobileLocationLi}
+          >
+            <span className={styles.navLink}>
+              LOCATION{" "}
+              <i ref={mobileLocationLiIconRef} class="bx bx-chevron-down"></i>
+            </span>
+            <div ref={locationDropdownRef} className={styles.locationDropdown}>
+              <Link
+                onClick={removeClass}
+                className={styles.locationDropdownLink}
+                href={"/location/howell"}
+              >
+                HOWELL
+              </Link>
+              <Link
+                onClick={removeClass}
+                className={styles.locationDropdownLink}
+                href={"/location/boise"}
+              >
+                BOISE
+              </Link>
+            </div>
+          </li>
           <li>
             <Link
               onClick={removeClass}
@@ -129,24 +164,6 @@ const Navbar = () => {
               href={"/news"}
             >
               NEWS
-            </Link>
-          </li>
-          <li className={styles.mobileLi}>
-            <Link
-              onClick={removeClass}
-              className={styles.navLink}
-              href={"/location/howell"}
-            >
-              HOWELL
-            </Link>
-          </li>
-          <li className={styles.mobileLi}>
-            <Link
-              onClick={removeClass}
-              className={styles.navLink}
-              href={"/location/boise"}
-            >
-              BOISE
             </Link>
           </li>
         </ul>

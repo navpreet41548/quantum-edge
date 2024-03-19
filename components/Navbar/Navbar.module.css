@@ -156,6 +156,53 @@
   border-bottom: 1px solid #c9c9c9;
 }
 
+.mobileLocationLi {
+  text-align: center;
+  display: block;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.locationDropdown {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.locationDropdownActive {
+  max-height: 100px;
+}
+
+.locationDropdownLink {
+  color: #1f1f1f;
+  padding: 10px 0;
+  font-weight: 600;
+}
+
+.navLink {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.navLink i {
+  position: absolute;
+  right: 30px;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+.navIconActive {
+  transform: rotate(180deg);
+}
+
+.mobileLocationLi {
+  display: none;
+}
+
 @media screen and (max-width: 1550px) {
   .nav {
     padding: 15px 5%;
@@ -253,6 +300,9 @@
   }
   .navCenter li {
     padding: 0;
+  }
+  .mobileLocationLi {
+    display: block;
   }
 }
 
