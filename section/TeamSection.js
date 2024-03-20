@@ -318,12 +318,12 @@ const TeamSection = () => {
             </p>
 
             <p className={styles.para}>
-              With a rare combination o technical prowess, business acumen, and
+              With a rare combination of technical prowess, business acumen, and
               an unwavering commitment to innovation, Mussa is poised to make a
-              significant impact in the wrld of advanced technology. His vision,
-              coupled with his ability to execute, makes him an exceptional
-              asset to any organization seeking to stay at the forefront of
-              their industry.
+              significant impact in the world of advanced technology. His
+              vision, coupled with his ability to execute, makes him an
+              exceptional asset to any organization seeking to stay at the
+              forefront of their industry.
             </p>
             <Link href={"/#contact"} className={styles.button}>
               CONTACT ME

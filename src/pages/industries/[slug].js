@@ -20,7 +20,7 @@ const IndustryDetail = () => {
       headingPart1: "AEROSPACE CAPABILITIES",
       headingPart2: "",
       para1:
-        "Quantum Edge, an American company, is at the forefront of developing advanced drone technology to meet the demands of the Aerospace industry. With a focus on innovation, we meticulously design our drones to address specific challenges faced by our clients. Our cutting-edge solutions are meticulously crafted to be versatile and adaptable, ensuring they meet the unique requirements of each project.",
+        "Quantum Edge, an American company, is at the forefront of developing advanced drone technology to meet the demands of the Aerospace industry. With a focus on innovation, we precisely design our drones to address specific challenges faced by our clients. Our cutting-edge solutions are meticulously crafted to be versatile and adaptable, ensuring they meet the unique requirements of each project.",
       para2:
         "As a proud supporter of US Aerospace initiatives, our commitment to manufacturing our products in the USA reflects our dedication to quality, reliability, and national innovation.",
       para3:

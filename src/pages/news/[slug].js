@@ -25,7 +25,7 @@ const NewsDetails = () => {
       imageSrc: "/images/news/news1.jpg",
       newsTitle:
         "Quantum Edge will be the first solar module and solar cell component manufacturer in the United States ",
-      newsDescription: `Quantum Edge Technology, an emerging US machine shop, is set to be the first solar module and solar cell component manufacturer. Quantum Edge is poised to play a significant role in the Renewable Energy industry by being the only solar wafer, solar ingot, and polysilicon component manufacturer, all while maintaining a strong commitment to innovation and sustainability. Their steadfast commitment to advancing renewable energy solutions is essential and timely in a world where mitigating climate change and technological innovation are of utmost importance.
+      newsDescription: `Quantum Edge, an emerging US machine shop, is set to be the first solar module and solar cell component manufacturer.  Quantum Edge is poised to play a significant role in the Renewable Energy industry by being the only solar wafer, solar ingot, and polysilicon component manufacturer nationally, all while maintaining a strong commitment to innovation and sustainability. Their steadfast commitment to advancing renewable energy solutions is essential and timely in a world where mitigating climate change and technological innovation are of utmost importance.
 <br><br>
 Quantum Edge presents itself as a catalyst for revolutionary change in the industry by forming strategic partnerships with top businesses at the forefront of solar technology development. Through these partnerships, we aim to create a future in which renewable energy technologies foster US economic development and social progress while simultaneously reducing their negative effects on the environment.
 <br><br>
@@ -33,9 +33,10 @@ An all-encompassing approach to sustainable energy solutions is at the heart of 
 <br><br>
 As a US machine shop, we are dedicated to reviving US-made manufacturing in order to strengthen the US economy and generate jobs domestically.
 <br><br>
-The state-of-the-art machine shop at Quantum Edge Technology is capable of producing high quality HJT/Perovskite, Topcon, and PERC solar frames that are Made in the USA. Furthermore, we are able to design and produce aerospace and defense components domestically.
+The state-of-the-art machine shop at Quantum Edge  is capable of producing high quality HJT/Perovskite, Topcon, and PERC solar frames that are <span class="bold">MADE IN THE USA</span>. Moreover, we possess the capability to domestically design and manufacture aerospace and defense components.
 <br><br>
-We understand how critical it is to transition to renewable energy sources, and their machine facility is equipped to meet the increasing demand for solar products that are kind to the environment. Quantum Edge's top goal is sustainability, and we employ energy-saving procedures and cut waste in their manufacturing operations. `,
+We understand how critical it is to transition to renewable energy sources, and their machine facility is equipped to meet the increasing demand for solar products that are kind to the environment. One of Quantum Edge's top priorities, is sustainability, we do this by employing energy-saving procedures to cut waste in our manufacturing operations
+`,
     },
     {
       tag: ["MARCH 15, 2024", "MUSSA QADER"],
@@ -43,14 +44,14 @@ We understand how critical it is to transition to renewable energy sources, and 
       imageSrc: "/images/news/news2.jpg",
       newsTitle:
         "Introducing Sentinel and Telecommunication Drones by Quantum Edge ",
-      newsDescription: `Quantum Edge Technology, a MADE in USA company is actively developing the creation of advanced drone technology to serve the needs of the aerospace, defense, and telecommunications sectors. Quantum Edge is dedicated to providing innovative and customer-focused solutions. Through specialized drone technology, the company seeks to address the distinctive issues that exist present-day. We are positioning themselves to provide dependable solutions that both meet and exceed customer expectations by utilizing their creative approach and expertise.
+      newsDescription: `Quantum Edge , a <span class="bold">MADE IN THE USA</span> company is actively developing the creation of advanced drone technology to serve the needs of the aerospace, defense, and telecommunications sectors. Quantum Edge is dedicated to providing innovative and customer-focused solutions. Through specialized drone technology, the company seeks to address the distinctive issues that exist present-day. We are positioning ourselves to provide dependable solutions that both meet and exceed customer expectations by utilizing their creative approach and expertise.
 <br><br>
 Quantum Edge is focused on the Research & Development of Sentinel and Telecommunication Drones. 
 <br><br>
-Quantum Edge is a firm that is pleased to be made in the USA, and as such, we place a high value on domestic production and manufacturing quality. In addition, the US production of the sentinel and telecommunication drones helps further the advancement of drone development. Enhancing the defense capabilities of the United States in aerospace and defense innovation are the goals of Quantum Edge, which places a strong emphasis on developing strategic collaborations and utilizing cutting-edge technology.
+Quantum Edge is a firm that is pleased to be <span class="bold">MADE IN THE USA</span>, and as such, we place a high value on domestic production and manufacturing quality. In addition, the US production of the sentinel and telecommunication drones helps further the advancement of drone development. Enhancing the defense capabilities of the United States in aerospace and defense innovation are the goals of Quantum Edge, which places a strong emphasis on developing strategic collaborations and utilizing cutting-edge technology.
 
 <br><br>
-We have commitment to quality and dependability in all facets of business operations. By putting the needs of the client first and pursuing excellence relentlessly, we hopes to revolutionize drone development. Quantum Edge aims to establish itself as a reliable partner in the Aerospace and Defense industries, promoting advancement and safeguarding national security via the provision of exceptional products and unmatched service.`,
+We have a deep commitment to quality and dependability in all facets of our business operations. By putting the needs of the client first and pursuing excellence relentlessly, we hopes to revolutionize drone development. Quantum Edge aims to establish itself as a reliable partner in the Aerospace and Defense industries, promoting advancement and safeguarding national security via the provision of exceptional products and unmatched service.`,
     },
     {
       tag: ["MARCH 15, 2024", "MUSSA QADER"],
@@ -61,7 +62,7 @@ We have commitment to quality and dependability in all facets of business operat
 <br><br>
 Quantum Edge bases its aerospace component development on a customer-centric strategy that emphasizes customizing solutions to fit the unique requirements of its customers. By leveraging state-of-the-art technologies and employing a team of skilled professionals, we aim to be well-positioned to make a valuable contribution to the advancement of aerospace capabilities. The company's proactive approach, which continuously aims to push the limits of what is feasible in aerospace manufacturing, demonstrates its devotion to innovation.
 <br><br>
-Being a MADE in USA business, Quantum Edge is motivated by a feeling of patriotism and a desire to participate in the expansion of the aerospace sector through component manufacturing. By means of strategic partnerships and an emphasis on sophisticated production methodologies, we hope to not only satisfy the needs of the aerospace industry but also establish standards for excellence and productivity. Quantum Edge aims to be a dependable partner for aerospace firms looking for high-quality parts and components for their cutting-edge projects because of their unrelenting commitment to perfection.
+Being a <span class="bold">MADE IN THE USA</span> business, Quantum Edge is motivated by a feeling of patriotism and a desire to participate in the expansion of the aerospace sector through component manufacturing. By means of strategic partnerships and an emphasis on sophisticated production methodologies, we hope to not only satisfy the needs of the aerospace industry but also establish standards for excellence and productivity. Quantum Edge aims to be a dependable partner for aerospace firms looking for high-quality parts and components for their cutting-edge projects because of their unrelenting commitment to perfection.
 <br><br>
 Quantum Edge is poised to leave a lasting impact on the industry, contributing to advancements that will shape the future of manufacturing aerospace components.`,
     },
@@ -107,7 +108,7 @@ Quantum Edge is resolute in its objective to deliver state-of-the-art parts and 
         <title>Quantum Edge | News</title>
         <meta
           name="description"
-          content="Quantum Edge Technology LLC is a new cutting-edge machine shop providing manufacturing and engineering services to many industries including Aerospace, Defense, and Renewable Energy. We are proud to say that we are a fully certified and authorized MADE IN USA machine shop"
+          content="Quantum Edge  is a new cutting-edge machine shop providing manufacturing and engineering services to many industries including Aerospace, Defense, and Renewable Energy. We are proud to say that we are a fully certified and authorized MADE IN USA machine shop"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/favicon.png" />

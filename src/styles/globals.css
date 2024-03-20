@@ -36,3 +36,7 @@ a {
 .swiper {
   overflow-x: visible;
 }
+
+.bold {
+  font-weight: 600;
+}

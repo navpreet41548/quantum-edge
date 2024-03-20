@@ -87,7 +87,7 @@ Quantum Edge is resolute in its objective to deliver state-of-the-art parts and 
         <title>Quantum Edge | News</title>
         <meta
           name="description"
-          content="Quantum Edge Technology LLC is a new cutting-edge machine shop providing manufacturing and engineering services to many industries including Aerospace, Defense, and Renewable Energy. We are proud to say that we are a fully certified and authorized MADE IN USA machine shop"
+          content="Quantum Edge is a new cutting-edge machine shop providing manufacturing and engineering services to many industries including Aerospace, Defense, and Renewable Energy. We are proud to say that we are a fully certified and authorized MADE IN USA machine shop"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/favicon.png" />
