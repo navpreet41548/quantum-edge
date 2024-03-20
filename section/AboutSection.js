@@ -19,10 +19,10 @@ const AboutSection = () => {
           </div>
         </div>
         <p className={styles.darkPara}>
-          Quantum Edge Technology LLC is a new cutting-edge machine shop
-          providing manufacturing and engineering services to the Aerospace,
-          Defense, and Renewable Energy industries. We are proud to say that all
-          of our manufacturing and engineering will be MADE in the USA.
+          Quantum Edge is a new cutting-edge machine shop providing
+          manufacturing and engineering services to the Aerospace, Defense, and
+          Renewable Energy industries. We are proud to say that all of our
+          manufacturing and engineering will be MADE in the USA.
         </p>
         <p className={styles.darkPara}>
           Our commitment to sustainable innovation and quality sets us apart.
