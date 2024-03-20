@@ -14,7 +14,7 @@ const Footer = () => {
           height={200}
           alt="Footer Logo"
         />
-        <h2 className={styles.footerHeading}>Quantum Edge Technology LLC</h2>
+        <h2 className={styles.footerHeading}>Quantum Edge </h2>
         <h3 className={styles.footerSubHeading}>Utah | Idaho | Virginia </h3>
         <ul className={styles.footerUl}>
           <li className={styles.footerLi}>
@@ -49,7 +49,7 @@ const Footer = () => {
         </ul>
       </div>
       <div className={styles.footerBottom}>
-        © 2024 Quantum Edge Technology LLC. All Rights Reserved.
+        © 2024 Quantum Edge. All Rights Reserved.
       </div>
     </div>
   );
